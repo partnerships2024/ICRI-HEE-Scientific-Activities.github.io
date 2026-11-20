@@ -18,15 +18,15 @@ main{padding:35px 0 70px}.panel{background:#fff;border:1px solid var(--line);bor
 </style>
 </head>
 <body>
-<div class="utility"><div class="container"><span>International Council for Research &amp; Innovation in STE (ICRI-STE)</span><a href="https://icriste.com/" target="_blank" rel="noopener noreferrer">ICRI-STE</a></div></div>
-<header><div class="container head"><a class="brand" href="index.html"><img src="assets/ICRI-STE-Logo.png" alt="ICRI-STE Logo"><span class="brand-copy"><strong>Scientific Events &amp; Research Training</strong><small>Research · Innovation · ECR Development</small></span></a><a class="btn outline" href="index.html">← Back to Home</a></div></header>
-<section class="hero"><div class="container"><div class="eyebrow">ICRI-STE Research Resources</div><h1>Scientific Document Viewer</h1><p>Access research manuscripts, scientific reports, review materials and training documents.</p></div></section>
+<div class="utility"><div class="container"><span>International Council for Research &amp; Innovation in Healthcare, Energy & Environment (ICRI-HEE)</span><a href="https://icriste.com/" target="_blank" rel="noopener noreferrer">ICRI-HEE</a></div></div>
+<header><div class="container head"><a class="brand" href="index.html"><img src="assets/ICRI-HEE_logo.svg" alt="ICRI-HEE Logo"><span class="brand-copy"><strong>Scientific Events &amp; Research Training</strong><small>Research · Innovation · ECR Development</small></span></a><a class="btn outline" href="index.html">← Back to Home</a></div></header>
+<section class="hero"><div class="container"><div class="eyebrow">ICRI-HEE Research Resources</div><h1>Scientific Document Viewer</h1><p>Access research manuscripts, scientific reports, review materials and training documents.</p></div></section>
 <main class="container"><section class="panel"><h2>Document Library</h2><p class="muted">Select a document below and enter its viewer password.</p><div id="document-list" class="documents"></div></section>
 <section class="panel"><h2 id="document-title">Select a document</h2><p id="document-description" class="muted">The selected document will appear here.</p>
 <form id="access-form" class="access hidden"><label for="viewer-password">Document access password</label><input id="viewer-password" type="password" autocomplete="off" required placeholder="Enter document password"><button class="btn" type="submit">Unlock Document</button><div id="access-error" class="error" role="status" aria-live="polite"></div></form>
 <div id="protected-content" class="hidden"><div class="toolbar"><a id="open-file" class="btn" href="#" target="_blank" rel="noopener noreferrer">Open Document</a><a id="download-file" class="btn outline" href="#" download>Download File</a><a id="overleaf-link" class="btn gold hidden" href="#" target="_blank" rel="noopener noreferrer">Open in Overleaf</a><button id="lock-file" class="btn outline" type="button">Lock Viewer</button></div><div id="pdf-area" class="hidden"><iframe id="pdf-frame" class="viewer" title="Scientific PDF Document" loading="lazy"></iframe></div><div id="word-area" class="notice hidden">Word documents can be opened or downloaded after unlocking. For an in-page preview, also upload a PDF version.</div></div>
 <div id="empty-area" class="notice">Choose a document above to begin.</div><p class="muted">This password prompt is only a browser-side access gate. GitHub Pages publishes both the JSON credentials and original document files publicly. Do not use this system for confidential documents.</p></section></main>
-<footer>© 2026 International Council for Research &amp; Innovation in STE (ICRI-STE). All rights reserved.</footer>
+<footer>© 2026 International Council for Research &amp; Innovation in Healthcare, Energy & Environment (ICRI-HEE). All rights reserved.</footer>
 <script>
 'use strict';
 let documents=[],selected=null,selectedIndex=-1;
