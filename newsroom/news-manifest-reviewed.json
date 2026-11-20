@@ -1,11 +1,11 @@
 {
-  "site": "ICRI-STE Newsroom",
+  "site": "ICRI-HEE Newsroom",
   "generated": "2026-11-02",
   "article_count": 8,
   "articles": [
     {
       "file": "international-commission-ai-healthcare-and-chi-symposium-2026.html",
-      "title": "ICRI-STE Invites Prof. Andrew Ware to Contribute to AI in Healthcare Commission",
+      "title": "ICRI-HEE Invites Prof. Andrew Ware to Contribute to AI in Healthcare Commission",
       "date": "2026-10-01",
       "category": "Institutional Announcements"
     },
@@ -52,5 +52,5 @@
       "category": "ECR R&D · Research Acknowledgement"
     }
   ],
-  "package": "ICRI-STE Main Website + Newsroom Integration"
+  "package": "ICRI-HEE Main Website + Newsroom Integration"
 }
